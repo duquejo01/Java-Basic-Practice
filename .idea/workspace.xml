@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7fb0353-5b7a-4330-afbe-a24011bb6764" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/duquejo/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/duquejo/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/duquejo/database/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/duquejo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/duquejo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/duquejo/ConnectionManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +51,18 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Ceiba\Training\Platzi\Java-persistency\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.co.duquejo.App">
+    <configuration name="co.duquejo.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.duquejo.App" />
       <module name="Java-persistency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.duquejo.*" />
+          <option name="PATTERN" value="co.duquejo.database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +99,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
+      <item itemvalue="Application.co.duquejo.App" />
       <item itemvalue="Maven.javapersistency" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.co.duquejo.App" />
       </list>
     </recent_temporary>
   </component>
@@ -126,5 +129,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="1" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

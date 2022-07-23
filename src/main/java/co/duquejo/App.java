@@ -1,19 +1,16 @@
 package co.duquejo;
 
-import java.sql.Connection;
-import java.sql.SQLException;
+import co.duquejo.services.MessageService;
+
+import java.util.Scanner;
 
 /**
- * Hello world!
+ * Simple DB Desktop Application
  *
  */
 public class App 
 {
     public static void main( String[] args ){
-        ConnectionManager connection =  new ConnectionManager();
-        try (Connection cnx = connection.getConnection()){
-        } catch ( Exception e ) {
-            System.out.println(e);
-        }
+        Menu.showMenu();
     }
 }
