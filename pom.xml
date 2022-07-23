@@ -8,9 +8,8 @@
   <artifactId>javapersistency</artifactId>
   <version>1.0</version>
 
-  <name>javapersistency</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>Java Messages App</name>
+  <url>http://www.duquejo.co</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,6 +27,7 @@
   </dependencies>
 
   <build>
+    <defaultGoal>install</defaultGoal>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
