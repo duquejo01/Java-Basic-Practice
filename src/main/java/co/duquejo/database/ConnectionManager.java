@@ -25,7 +25,7 @@ public class ConnectionManager {
                 System.out.println("Successful connection");
             }
         } catch (SQLException e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
         return connection;
     }
