@@ -23,10 +23,10 @@ public class MessageService {
 
         // DAO Manager
         try {
-            MessageDAO.create(message);
-            System.out.println(":: Message created.");
+            int rows = MessageDAO.create(message);
+            System.out.println(":: (" + rows + ") Message created.");
         } catch( SQLException e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
 
@@ -34,7 +34,7 @@ public class MessageService {
         try {
             MessageDAO.read();
         } catch ( SQLException e ) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
 
@@ -46,9 +46,9 @@ public class MessageService {
 
         try {
             int rows = MessageDAO.delete( id );
-            System.out.println( "(" + rows + ") message(s) deleted.");
+            System.out.println(":: (" + rows + ") message(s) deleted.");
         } catch ( SQLException e ) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
 
@@ -71,9 +71,9 @@ public class MessageService {
 
         try {
             int rows = MessageDAO.update( message );
-            System.out.println( "(" + rows + ") message(s) updated.");
+            System.out.println(":: (" + rows + ") message(s) updated.");
         } catch ( SQLException e ) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
 }
